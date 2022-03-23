@@ -1,4 +1,4 @@
-let  x = 10000;
+let  x = 100;
 if (x.toString().length > 4) {
     console.log("more than 4 digits");
 }

@@ -5,6 +5,7 @@ function myFunc(x) {
         return 1;
     else {
         return (x * myFunc(x - 1));
+        
     }
 }
-console.log(myFunc(4));
+console.log(myFunc(5));

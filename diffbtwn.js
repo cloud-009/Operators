@@ -1,4 +1,4 @@
-let x =15, y=11;
+let x =10, y=5;
 if ( (x-y)< 5) {
     console.log("less than 5");
 }
