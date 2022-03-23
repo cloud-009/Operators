@@ -1,6 +1,6 @@
 let n1 = 2;
 let n2 = 3;
-
+let n3 = 5;
 let min = n1>n2? n1:n2;
 //console.log(min);
 while(true){
