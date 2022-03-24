@@ -1,12 +1,20 @@
-let n1 = 2;
-let n2 = 3;
-let n3 = 5;
-let min = n1>n2? n1:n2;
-//console.log(min);
-while(true){
-    if (min%n1==0 && min%n2==0){
-        console.log(`Lcm of ${n1} and ${n2} is ${min}`);
+let n1 = 10;
+let n2 = 20;
+let n3 = 15;
+let minimum = 0;
+if (n1 > n2 && n1 > n3) {
+    minimum = n1;
+}
+else if (n2 > n1 && n2 > n3) {
+    minimum = n2;
+}
+else {
+    minimum = n3;
+}
+while (minimum > 0) {
+    if (minimum % n1 == 0 && minimum % n2 == 0 && minimum % n3 == 0) {
+        console.log(`Lcm of ${n1}, ${n2} and ${n3} is ${minimum}`);
         break;
     }
-    min++;
+    minimum++;
 }

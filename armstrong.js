@@ -1,4 +1,4 @@
-let number = window.prompt("Enter the number:");
+let number = window.prompt("Enter tha number:");
 let temp = number;
 let sum = 0;
 let noofdigits = number.length;
