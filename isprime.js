@@ -7,7 +7,7 @@ function myFunc(x) {
         return (x * myFunc(x - 1));
     }
 }
-let y = console.log(myFunc(1));
+let y = console.log(myFunc(100));
 let count = 0;
 for (let i = 0; i <= y; i++) {
     if (y % i == 0) {
