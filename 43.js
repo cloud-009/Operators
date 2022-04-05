@@ -1,4 +1,4 @@
-let n = 100;
+let n = 10;
 function run () {
     let sum=0;
     let sum1=0;

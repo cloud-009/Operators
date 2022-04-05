@@ -11,6 +11,5 @@ function checkPalindrome(no) {
         console.log('It is not a palindrome');
     }
 }
-const no = window.prompt("Enter a number:");
-checkPalindrome(no);
+console.log(checkPalindrome[121]);
 

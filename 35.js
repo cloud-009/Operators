@@ -1,19 +1,18 @@
-// function compare(x, y, z) {
-//     let x1 = Math.abs(x, y);
-//     let y1 = Math.abs(y, z);
-//     let z1 = Math.abs(z, x);
-//     if (x1 == y1 && x1 == z1) {
-//         return true;
-//     }
-//     else if(y1===z1) {
-//         return true;
-//     }
-//     else {
-//         return false;
-//     }
-// }
-// console.log(compare(6,4,2));
+let x=2,y=6,z=6;
+let x1=Math.abs(x-y);
+let x2=Math.abs(y-z);
+let x3=Math.abs(z-x);
 
-// let w = 2, e=4;
-// let sum = Math.abs(w,e);
-// console.log(sum);
+if (x==y && x==z) 
+console.log(true);
+if (x==y || x==z || x==z)
+console.log(false);
+
+if (x1==x2)
+console.log(true);
+else if(x2==x3)
+console.log(true);
+else if(x1==x3)
+console.log(true);
+else 
+console.log(false);

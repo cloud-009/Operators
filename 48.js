@@ -48,4 +48,4 @@ function main() {
   }
 }
 
-main();
+main(343);
