@@ -1,5 +1,5 @@
-function some(na, cal){
-    console.log("Hi"+""+na);
+function some(name, cal){
+    console.log("Hi"+""+name);
     cal();
 }
 function thing(){
