@@ -1,10 +1,10 @@
-function hasOne(n) {
-    while (n % 10 != 0 || n == 10) {
-        if (n % 10 == 1)
-            return true;
+function one (n) {
+    while (n%10!=0 ||n==10||n%10==0) {
+        if (n%10==1)
+        return true;
         else
-            n /= 10;
+        n=n/10;
     }
     return false;
 }
-console.log(hasOne(20));
+console.log(one(110));

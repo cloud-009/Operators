@@ -16,4 +16,4 @@ function getDivisor(num) {
     }
     return total;
 }
-console.log(getDivisor(28));
+console.log(getDivisor(28123));

@@ -1,12 +1,3 @@
-function factor(a,b,c){
-    if (c==13) {
-        return sum = a +b;
-    }
-    else if(b==13) {
-        return sum =a;
-    }
-    else {
-        return sum = a+b+c;
-    }
-}
-console.log(factor(1,13,23));
+let a=1,b=1,c=13;
+let sum = a==13?0:b==13?a:c==13?a+b:a+b+c;
+console.log(sum);

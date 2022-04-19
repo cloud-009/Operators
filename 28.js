@@ -1,4 +1,6 @@
-function sumofnn(a) {
-    return (a*(a+1)*(2*a+1))/6;
+let limit=3;
+let sum=0;
+for(let i=1;i<=limit; i++) {
+    sum+=i*i;
 }
-console.log(sumofnn(5));
+console.log(sum);

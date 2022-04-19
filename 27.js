@@ -1,4 +1,5 @@
-function sumofn(n) {
-    return n*(n+1)/2;
+let limit =10, sum =0;
+for (let i=1;i<=limit;i++) {
+    sum+=i;
 }
-console.log(sumofn(4));
+console.log(sum);
